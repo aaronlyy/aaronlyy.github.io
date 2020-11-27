@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
 * {
     margin: 0;
@@ -27,9 +28,9 @@ body {
 }
 
 .logo h1 {
-    font-family: 'Lora', serif;
+    font-family: 'Metal Mania', cursive;
     font-size: 6vh;
-    color: rgb(241, 73, 73);
+    color: rgb(182, 0, 0);
     padding: 0;
     margin: 0;
 }
@@ -45,10 +46,10 @@ body {
 }
 
 .nav a {
-    font-family: 'Lora', serif;
+    font-family: 'Metal Mania', cursive;
     font-size: 3vh;
     font-weight: bold;
-    color: rgb(121, 121, 121);
+    color: rgb(116, 116, 116);
     text-decoration: none;
     transition: all ease 200ms;
 }
@@ -58,17 +59,17 @@ body {
 }
 
 .message h1 {
-    font-family: 'Lora', serif;
+    font-family: 'Metal Mania', cursive;
     font-size: 8vh;
-    color: white;
+    color: rgb(82, 82, 82);
     padding: 0;
     margin: 0;
 }
 
 .message h2 {
-    font-family: 'Lora', serif;
+    font-family: 'Metal Mania', cursive;
     font-size: 4vh;
-    color: white;
+    color: rgb(82, 82, 82);
     padding: 0;
     margin: 0;
 }

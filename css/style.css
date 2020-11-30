@@ -77,8 +77,12 @@ body {
     text-align: left;
 }
 
+.link-list ul {
+    padding: 0;
+    list-style-type: none;
+}
+
 .link-list li {
-    list-style: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     font-weight: 300;
@@ -97,3 +101,16 @@ body {
 .link-list a:hover {
     color: rgb(182, 0, 0);
 }
+
+@media only screen and (max-width: 600px) {
+
+    .link-list {
+        width: 120%;
+    }
+    .link-list a {
+        font-size: 20px;
+    }
+    .link-list li {
+        font-size: 20px;
+    }
+  }

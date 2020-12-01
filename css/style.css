@@ -55,7 +55,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.message h1 {
+.content-headline h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 50px;
     font-weight: 400;
@@ -64,7 +64,7 @@ body {
     margin: 0;
 }
 
-.message h2 {
+.content-headline h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     font-weight: 300;
@@ -99,6 +99,19 @@ body {
 
 .link-list a:hover {
     color: rgb(211, 0, 0);
+}
+
+.project-catg {
+    margin-bottom: 20px;
+}
+
+.project-catg h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 600px) {

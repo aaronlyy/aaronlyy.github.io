@@ -14,7 +14,7 @@ body {
     text-align: center;
 }
 
-.wrapper-centered-content {
+.wrapper-centered-hv {
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -55,22 +55,26 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.content-headline h1 {
+.content h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 50px;
     font-weight: 400;
     color: rgb(255, 255, 255);
-    padding: 0;
-    margin: 0;
 }
 
-.content-headline h2 {
+.content h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     font-weight: 300;
     color: rgb(131, 131, 131);
-    padding: 0;
-    margin: 0;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(131, 131, 131);
 }
 
 .link-list {
@@ -112,6 +116,12 @@ body {
     color: rgb(255, 255, 255);
     padding: 0;
     margin-bottom: 10px;
+}
+
+code {
+    font-size: 20px;
+    background-color: black;
+    margin: 10px;
 }
 
 @media only screen and (max-width: 600px) {

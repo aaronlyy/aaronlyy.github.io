@@ -6,9 +6,9 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: rgb(12, 12, 12);
+  background: rgb(39, 36, 42);
   color: #ddd;
-  border: black;
+  border: rgb(0, 0, 0);
   border-radius: 5px;
 }
 

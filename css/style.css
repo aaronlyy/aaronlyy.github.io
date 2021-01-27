@@ -26,7 +26,7 @@ body {
 
 .wrapper-centered-h {
     margin: auto;
-    width: 50%;
+    width: 40%;
     text-align: center;
 }
 
@@ -94,6 +94,8 @@ body {
 
 code {
     text-align: left;
+    font-size: 16px;
+    margin: 10px;
 }
 
 .link-list {
@@ -124,11 +126,11 @@ code {
     color: rgb(211, 0, 0);
 }
 
-.project-catg {
+.section {
     margin-bottom: 30px;
 }
 
-.project-catg h2 {
+.section h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     font-weight: 300;
@@ -137,10 +139,7 @@ code {
     margin-bottom: 10px;
 }
 
-code {
-    font-size: 16px;
-    margin: 10px;
-}
+
 
 @media only screen and (max-width: 600px) {
     .link-list {
@@ -152,4 +151,4 @@ code {
     .link-list li {
         font-size: 20px;
     }
-  }
+}
